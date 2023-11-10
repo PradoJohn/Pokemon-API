@@ -31,10 +31,10 @@ export default function Navbar({ teamCount, setInput }) {
   return (
     <>
       <nav>
-        <h1>POKEDEX</h1>
+        <h1>PradoPOKEDEX</h1>
         <Link to="/">Home</Link>
         <Link to="/team">My Team #{teamCount}</Link>
-
+        
         <input
           type="text"
           placeholder="search"
